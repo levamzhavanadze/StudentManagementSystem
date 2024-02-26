@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+
+
+
+using StudentManagementSystem;
+
+Student a = new Student("Levan", "Mzhavnadze", new DateTime(1990, 11, 11), 33, 'A');
+
+
+Console.WriteLine(a);
+
+

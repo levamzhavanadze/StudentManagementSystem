@@ -46,7 +46,7 @@ namespace StudentManagementSystem
 
         public override string ToString()
         {
-            return $"First Name: {FirstName}; Last Name: {LastName}";
+            return $"First Name: {FirstName}; Last Name: {LastName}; Age: {CalculateCurrentAge(DateOfBirth).ToString()}";
         }
 
     }
